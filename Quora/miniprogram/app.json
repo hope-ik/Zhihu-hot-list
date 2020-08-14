@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/consumer/consumer",
+        "pages/search/search"
+    ],
+    "window": {
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "知乎热榜",
+        "navigationBarTextStyle": "black",
+
+        "onReachBottomDistance": 66
+
+    },
+    "tabBar": {
+        "color": "#000",
+        "selectedColor": "#00CCC5",
+        "backgroundColor": "#fff",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "首页",
+            "selectedIconPath": "images/icon/index2.png",
+            "iconPath": "images/icon/index1.png"
+
+        }, {
+            "pagePath": "pages/consumer/consumer",
+            "text": "我的",
+            "selectedIconPath": "images/icon/user2.png",
+            "iconPath": "images/icon/user1.png"
+        }]
+
+    },
+
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+        "van-cell": "@vant/weapp/cell/index",
+        "van-cell-group": "@vant/weapp/cell-group/index",
+        "van-tag": "@vant/weapp/tag/index",
+        "van-icon": "@vant/weapp/icon/index",
+        "van-button": "@vant/weapp/button/index",
+        "van-tab": "@vant/weapp/tab/index",
+        "van-tabs": "@vant/weapp/tabs/index"
+    }
+}
